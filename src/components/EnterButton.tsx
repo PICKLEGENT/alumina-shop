@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 const EnterButton = () => {
     return (
-        <div>EnterButton</div>
+        <Link to='/login'>EnterButton</Link>
     )
 }
 

@@ -1,6 +1,8 @@
-const Heading = () => {
+import { HeadingProps } from "../types"
+
+const Heading = ({ title }: HeadingProps) => {
     return (
-        <div>Heading</div>
+        <h1 className="uppercase text-red-100 text-center text-5xl tracking-wider">{title}</h1>
     )
 }
 

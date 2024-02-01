@@ -1,6 +1,8 @@
-const CustomButton = () => {
+import { CustomButtonProps } from "../types"
+
+const CustomButton = ({ title }: CustomButtonProps) => {
     return (
-        <div>CustomButton</div>
+        <button className="font-medium text-lg text-white-100 tracking-widest uppercase cursor-pointer w-full p-4 bg-red-100">{title}</button>
     )
 }
 

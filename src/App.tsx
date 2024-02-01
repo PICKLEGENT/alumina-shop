@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import { Footer, Header } from "./components"
 import { Auth, Cart, Catalog, Contacts, Faq, Home, Info, NotFound, Support } from "./pages"
+import './App.css'
 
 const App = () => {
   return (

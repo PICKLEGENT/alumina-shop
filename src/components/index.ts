@@ -5,7 +5,6 @@ import CustomButton from './CustomButton';
 import EnterButton from './EnterButton';
 import ProductButton from './ProductButton';
 import CartButton from './CartButton';
-import Banner from './Banner';
 import InputField from './InputField';
 import Footer from './Footer';
 
@@ -17,7 +16,6 @@ export {
 	EnterButton,
 	ProductButton,
 	CartButton,
-	Banner,
 	InputField,
 	Footer,
 };
