@@ -12,3 +12,7 @@ export interface InputProps {
 export interface CustomButtonProps {
 	title: string;
 }
+
+export interface ProductButtonProps {
+	title: string;
+}

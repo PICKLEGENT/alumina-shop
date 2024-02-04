@@ -1,6 +1,10 @@
+import { ProductButton } from "../components"
+
 const Catalog = () => {
     return (
-        <div>Catalog</div>
+        <>
+            <ProductButton title={'Алюминиевые композитные панели'} />
+        </>
     )
 }
 
