@@ -22,3 +22,7 @@ export interface QuestionAnswerProps {
 	question: string;
 	answer: string;
 }
+
+export interface CustomCheckboxProps {
+	title: string;
+}

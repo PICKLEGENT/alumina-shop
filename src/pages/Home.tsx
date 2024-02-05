@@ -1,4 +1,5 @@
 import { CustomButton, Heading, InputField } from "../components"
+import CustomCheckbox from "../components/CustomCheckbox"
 import Banner from 'D:/My projects/alumina-shop/src/assets/images/banner1.jpg'
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
                                 placeholder={'Ваше имя'}
                             />
                             <InputField
-                                type={'text'}
+                                type={'email'}
                                 name={'user_email'}
                                 autocomplete={'email'}
                                 placeholder={'Ваш email'}
@@ -38,7 +39,8 @@ const Home = () => {
                             />
                         </div>
                         <div className="ml-25 w-400 h-[210px]">
-                            <textarea className="w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black"
+                            <textarea
+                                className="w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black"
                                 name="user_message"
                                 id="form__home_textarea"
                                 placeholder="Ваши пожелания"
@@ -47,6 +49,7 @@ const Home = () => {
                             </textarea>
                         </div>
                     </div>
+                    <CustomCheckbox title={'Согласие на обработку персональных данных'} />
                     <CustomButton title={'отправить'} />
                 </form>
             </div>
