@@ -11,8 +11,7 @@ const Home = () => {
                 <p className="text-5xl z-10 tracking-widest">по доступным ценам</p>
             </section>
             <section className="mx-450 my-150 text-center text-red-100">
-                <Heading title={'история компании'} />
-                <h2 className="text-xl mt-50 mb-25">Миссия и ценности</h2>
+                <Heading title={'история компании'} subtitle={'Миссия и ценности'} />
                 <p className="text-lg leading-relaxed">Интернет-магазин «Alumina» заботится о своих покупателях. С самого первого дня у нас работают приветливые специалисты, готовые ответить на Ваши вопросы и найти товар, который Вас интересует. Вас порадуют высокие стандарты качества и широкий ассортимент продукции.</p>
             </section>
             <div className="flex justify-center items-center">

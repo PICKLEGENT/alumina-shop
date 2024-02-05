@@ -1,5 +1,6 @@
 export interface HeadingProps {
 	title: string;
+	subtitle: string;
 }
 
 export interface InputProps {

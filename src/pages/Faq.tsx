@@ -4,8 +4,7 @@ const Faq = () => {
     return (
         <>
             <section className="mx-450 my-50 text-center text-red-100">
-                <Heading title={'вопросы и ответы'} />
-                <h2 className="text-xl mt-50 mb-25">Ответы на вопросы</h2>
+                <Heading title={'вопросы и ответы'} subtitle={'Ответы на вопросы'} />
             </section>
             <div className="flex flex-col justify-center items-start mx-400">
                 <QuestionAnswer
