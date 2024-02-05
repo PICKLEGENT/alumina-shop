@@ -16,3 +16,8 @@ export interface CustomButtonProps {
 export interface ProductButtonProps {
 	title: string;
 }
+
+export interface QuestionAnswerProps {
+	question: string;
+	answer: string;
+}

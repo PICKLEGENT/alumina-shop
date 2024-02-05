@@ -5,6 +5,7 @@ import CustomButton from './CustomButton';
 import ProductButton from './ProductButton';
 import CartButton from './CartButton';
 import InputField from './InputField';
+import QuestionAnswer from './QuestionAnswer';
 import Footer from './Footer';
 
 export {
@@ -15,5 +16,6 @@ export {
 	ProductButton,
 	CartButton,
 	InputField,
+	QuestionAnswer,
 	Footer,
 };

@@ -3,7 +3,9 @@ import { ProductButton } from "../components"
 const Catalog = () => {
     return (
         <>
-            <ProductButton title={'Алюминиевые композитные панели'} />
+            <div className="catalog__grid">
+                <ProductButton title={'Алюминиевые композитные панели'} />
+            </div>
         </>
     )
 }
