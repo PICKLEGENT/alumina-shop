@@ -15,7 +15,7 @@ const Footer = () => {
                                 <Link
                                     key={item.title}
                                     to={item.url}
-                                    className='tracking-wider'
+                                    className='tracking-wider hover:text-red-100 duration-300 ease-in'
                                 >
                                     {item.title}
                                 </Link>

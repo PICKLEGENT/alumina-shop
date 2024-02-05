@@ -24,18 +24,24 @@ const Home = () => {
                                 name={'user_name'}
                                 autocomplete={'given-name'}
                                 placeholder={'Ваше имя'}
+                                marginY={'my-3'}
+                                width={'w-400'}
                             />
                             <InputField
                                 type={'email'}
                                 name={'user_email'}
                                 autocomplete={'email'}
                                 placeholder={'Ваш email'}
+                                marginY={'my-3'}
+                                width={'w-400'}
                             />
                             <InputField
                                 type={'tel'}
                                 name={'user_tel'}
                                 autocomplete={'on'}
                                 placeholder={'Ваш телефон'}
+                                marginY={'my-3'}
+                                width={'w-400'}
                             />
                         </div>
                         <div className="ml-25 w-400 h-[210px]">

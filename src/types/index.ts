@@ -1,6 +1,6 @@
 export interface HeadingProps {
 	title: string;
-	subtitle: string;
+	subtitle?: string;
 }
 
 export interface InputProps {
@@ -8,6 +8,9 @@ export interface InputProps {
 	name: string;
 	autocomplete: string;
 	placeholder: string;
+	id?: string;
+	marginY: string;
+	width: string;
 }
 
 export interface CustomButtonProps {

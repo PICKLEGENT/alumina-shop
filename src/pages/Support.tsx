@@ -15,6 +15,8 @@ const Support = () => {
                             name={'user_name'}
                             autocomplete={'given-name'}
                             placeholder={'Имя'}
+                            marginY={'my-3'}
+                            width={'w-400'}
                         />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <InputField
@@ -22,6 +24,8 @@ const Support = () => {
                             name={'user_surname'}
                             autocomplete={'family-name'}
                             placeholder={'Фамилия'}
+                            marginY={'my-3'}
+                            width={'w-400'}
                         />
                     </div>
                     <div>
@@ -30,6 +34,8 @@ const Support = () => {
                             name={'user_email'}
                             autocomplete={'email'}
                             placeholder={'Email'}
+                            marginY={'my-3'}
+                            width={'w-400'}
                         />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <InputField
@@ -37,6 +43,8 @@ const Support = () => {
                             name={'user_tel'}
                             autocomplete={'tel'}
                             placeholder={'Телефон'}
+                            marginY={'my-3'}
+                            width={'w-400'}
                         />
                     </div>
                     <textarea
