@@ -10,7 +10,6 @@ const CartButton = () => {
                     <p className="absolute top-[-0.3rem] right-0 px-1.5 text-sm text-center text-white-100 rounded-full bg-red-100 select-none">0</p>
                 </Link>
             </div>
-
         </div>
     )
 }

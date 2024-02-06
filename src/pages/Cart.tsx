@@ -1,6 +1,10 @@
+import { Heading } from "../components"
+
 const Cart = () => {
     return (
-        <div>Cart</div>
+        <div>
+            <Heading title={'корзина'} />
+        </div>
     )
 }
 
