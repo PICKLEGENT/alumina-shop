@@ -1,14 +1,14 @@
-import { CustomButton, Heading, InputField } from "../components"
-import CustomCheckbox from "../components/CustomCheckbox"
+import { CustomButton, Heading, InputField } from '../components'
+import CustomCheckbox from '../components/CustomCheckbox'
 
 const Support = () => {
     return (
         <>
-            <section className="mx-480 mt-50 mb-100 text-center text-red-100">
+            <section className='mx-480 mt-50 mb-100 text-center text-red-100'>
                 <Heading title={'связаться с поддержкой'} subtitle={'Как Вам помочь?'} />
             </section>
-            <div className="flex flex-col justify-center items-center">
-                <form action="#">
+            <div className='flex flex-col justify-center items-center'>
+                <form action='#'>
                     <div>
                         <InputField
                             type={'text'}
@@ -48,12 +48,12 @@ const Support = () => {
                         />
                     </div>
                     <textarea
-                        className="w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black"
-                        name="user_message"
-                        id="form__support_textarea"
+                        className='w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black'
+                        name='user_message'
+                        id='form__support_textarea'
                         cols={20}
                         rows={5}
-                        placeholder="Расскажите, чем мы можем Вам помочь..."></textarea>
+                        placeholder='Расскажите, чем мы можем Вам помочь...'></textarea>
                     <CustomCheckbox title={'Согласие на обработку персональных данных'} />
                     <CustomButton title={'отправить'} />
                 </form>

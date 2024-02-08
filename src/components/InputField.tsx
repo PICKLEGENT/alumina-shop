@@ -1,4 +1,4 @@
-import { InputProps } from "../types"
+import { InputProps } from '../types'
 
 const InputField = ({ type, name, autocomplete, placeholder, id, marginY, width }: InputProps) => {
     return (

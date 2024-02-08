@@ -1,6 +1,6 @@
 const CartItem = () => {
 	return (
-		<div className='cart-item flex justify-between items-center my-50 p-15 rounded-xl '>
+		<div className='cart-item flex justify-between items-center my-50 p-15 rounded-xl'>
 			<div className='flex justify-center items-center'>
 				<div className='flex justify-center items-center w-150 h-150 bg-slate-500'>
 					<p>Желтый</p>

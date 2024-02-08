@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
-import { footerLinks } from "../constants"
+import { Link } from 'react-router-dom'
+import { footerLinks } from '../constants'
 
 const Footer = () => {
     return (
-        <footer className="mx-200 my-60">
+        <footer className='mx-200 my-60'>
             <div className='flex justify-between'>
                 {footerLinks.map((link) => (
                     <div
@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 ))}
             </div>
-            <p className="mt-25 text-center tracking-wider">&#169; Alumina 2023</p>
+            <p className='mt-25 text-center tracking-wider'>&#169; Alumina 2023</p>
         </footer>
     )
 }

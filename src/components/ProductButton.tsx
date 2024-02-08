@@ -1,9 +1,9 @@
-import { Link } from "react-router-dom"
-import { ProductButtonProps } from "../types"
+import { Link } from 'react-router-dom'
+import { ProductButtonProps } from '../types'
 
 const ProductButton = ({ title }: ProductButtonProps) => {
     return (
-        <Link to='/product' className="
+        <Link to='/product' className='
             flex 
             justify-center 
             items-center 
@@ -17,9 +17,9 @@ const ProductButton = ({ title }: ProductButtonProps) => {
             leading-8
             text-red-100 
             border
-            border-red-100"
+            border-red-100'
         >
-            <span className="p-4">{title}</span>
+            <span className='p-4'>{title}</span>
         </Link>
     )
 }

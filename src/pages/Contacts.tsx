@@ -1,21 +1,21 @@
-import { Link } from "react-router-dom"
-import { CustomButton, Heading, InputField } from "../components"
-import CustomCheckbox from "../components/CustomCheckbox"
+import { Link } from 'react-router-dom'
+import { CustomButton, Heading, InputField } from '../components'
+import CustomCheckbox from '../components/CustomCheckbox'
 
 const Contacts = () => {
     return (
         <>
-            <section className="flex justify-around items-start mt-50">
-                <div className="flex flex-col justify-center items-center text-red-100">
+            <section className='flex justify-around items-start mt-50'>
+                <div className='flex flex-col justify-center items-center text-red-100'>
                     <Heading title={'связаться'} />
-                    <p className="my-50">Москва, Каширское шоссе, д. 3, к. 2, стр. 9</p>
-                    <p className="my-25">example@example.ru</p>
+                    <p className='my-50'>Москва, Каширское шоссе, д. 3, к. 2, стр. 9</p>
+                    <p className='my-25'>example@example.ru</p>
                     <Link to='/'>8 &nbsp;&nbsp;906&nbsp;&nbsp;729 84 64</Link>
                 </div>
-                <form action="#">
-                    <div className="flex">
+                <form action='#'>
+                    <div className='flex'>
                         <div>
-                            <label htmlFor="f-contact__input-name" className="block text-red-100">Имя</label>
+                            <label htmlFor='f-contact__input-name' className='block text-red-100'>Имя</label>
                             <InputField
                                 type={'text'}
                                 name={'user_name'}
@@ -28,7 +28,7 @@ const Contacts = () => {
                         </div>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <div>
-                            <label htmlFor="f-contact__input-email" className="block text-red-100">Эл. почта</label>
+                            <label htmlFor='f-contact__input-email' className='block text-red-100'>Эл. почта</label>
                             <InputField
                                 type={'email'}
                                 name={'user_email'}
@@ -40,9 +40,9 @@ const Contacts = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex">
+                    <div className='flex'>
                         <div>
-                            <label htmlFor="f-contact__input-tel" className="block text-red-100">Телефон</label>
+                            <label htmlFor='f-contact__input-tel' className='block text-red-100'>Телефон</label>
                             <InputField
                                 type={'tel'}
                                 name={'user_tel'}
@@ -55,7 +55,7 @@ const Contacts = () => {
                         </div>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <div>
-                            <label htmlFor="f-contact__input-address" className="block text-red-100">Адрес</label>
+                            <label htmlFor='f-contact__input-address' className='block text-red-100'>Адрес</label>
                             <InputField
                                 type={'text'}
                                 name={'user_address'}
@@ -68,7 +68,7 @@ const Contacts = () => {
                         </div>
                     </div>
                     <div>
-                        <label htmlFor="f-contact__input-subject" className="block text-red-100">Тема</label>
+                        <label htmlFor='f-contact__input-subject' className='block text-red-100'>Тема</label>
                         <InputField
                             type={'text'}
                             name={'user_tel'}
@@ -80,14 +80,14 @@ const Contacts = () => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="textarea_contact__message" className="block text-red-100">Сообщение</label>
+                        <label htmlFor='textarea_contact__message' className='block text-red-100'>Сообщение</label>
                         <textarea
-                            className="w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black"
-                            name="user_message"
-                            id="form__support_textarea"
+                            className='w-full h-full p-2.5 whitespace-normal resize-none text-base tracking-wider border-b border-red-100 placeholder:text-red-100 focus:border-black'
+                            name='user_message'
+                            id='form__support_textarea'
                             cols={20}
                             rows={5}
-                            placeholder="Расскажите, чем мы можем Вам помочь..."
+                            placeholder='Расскажите, чем мы можем Вам помочь...'
                             id='textarea_contact__message'
                         ></textarea>
                     </div>
