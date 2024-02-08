@@ -81,11 +81,14 @@ nav {
 
 .custom-btn__btn,
 .cart-item,
-.product-item__color-preview {
+.product-item__color-preview,
+.cart-item__btn {
 	transition: 0.3s ease 0s;
 }
 
-.custom-btn__btn:active {
+.custom-btn__btn:active,
+.product-btn__btn:active,
+.cart-item__btn:active {
 	transform: scale(0.96);
 }
 
