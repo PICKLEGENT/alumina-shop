@@ -5,7 +5,7 @@ const Support = () => {
     return (
         <>
             <section className="mx-480 mt-50 mb-100 text-center text-red-100">
-                <Heading title={'СВЯЗАТЬСЯ С ПОДДЕРЖКОЙ'} subtitle={'Как Вам помочь?'} />
+                <Heading title={'связаться с поддержкой'} subtitle={'Как Вам помочь?'} />
             </section>
             <div className="flex flex-col justify-center items-center">
                 <form action="#">
