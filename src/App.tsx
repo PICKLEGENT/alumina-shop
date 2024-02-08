@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { Footer, Header } from "./components"
-import { Cart, Catalog, Contacts, Faq, Home, Info, NotFound, Support } from "./pages"
+import { Cart, Catalog, Contacts, Faq, Home, Info, NotFound, Product, Support } from "./pages"
 import './App.css'
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
         <Route path="/faq" Component={Faq} />
         <Route path="/support" Component={Support} />
         <Route path="/cart" Component={Cart} />
+        <Route path="/product" Component={Product} />
         <Route path="/404" Component={NotFound} />
       </Routes>
       <Footer />

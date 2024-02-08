@@ -3,7 +3,7 @@ import { ProductButtonProps } from "../types"
 
 const ProductButton = ({ title }: ProductButtonProps) => {
     return (
-        <Link to='/' className="
+        <Link to='/product' className="
             flex 
             justify-center 
             items-center 
