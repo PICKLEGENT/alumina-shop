@@ -15,6 +15,7 @@ export interface InputProps {
 
 export interface CustomButtonProps {
 	title: string;
+	func?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
 export interface ProductButtonProps {
