@@ -67,10 +67,15 @@ nav {
 	color: #000;
 }
 
-.custom-btn__btn {
+.custom-btn__btn,
+.cart-item {
 	transition: 0.3s ease 0s;
 }
 
 .custom-btn__btn:active {
 	transform: scale(0.96);
+}
+
+.cart-item:hover {
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
 }

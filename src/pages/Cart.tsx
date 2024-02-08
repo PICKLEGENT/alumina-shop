@@ -3,7 +3,7 @@ import { CartItem, CustomButton, Heading } from "../components"
 const Cart = () => {
     return (
         <>
-            <section className="mx-480 mt-50 mb-100 text-center text-red-100">
+            <section className="mx-480 my-50 text-center text-red-100">
                 <Heading title={'Корзина'} subtitle={'Ваши заказы'} />
             </section>
             <main className="mx-200">
